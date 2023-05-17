@@ -89,6 +89,18 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom-caf/bootctrl \
 #    vendor/qcom/opensource/commonsys-intf/display
 
+# Screen
+TARGET_SCREEN_HEIGHT := 2400
+TARGER_SCREEN_WEIGHT := 1080
+
+# Fix UI/UX
+OF_SCREEN_H := 2400
+OF_HIDE_NOTCH := 1
+OF_CLOCK_POS := 2
+OF_STATUS_H := 100
+OF_STATUS_INDENT_LEFT := 48
+OF_STATUS_INDENT_RIGHT := 48
+
 # Crypto
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
